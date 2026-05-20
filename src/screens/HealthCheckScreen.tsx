@@ -7,7 +7,7 @@ import * as ImagePicker from 'expo-image-picker';
 import { SYMPTOMS, SYMPTOM_CATEGORIES, CONDITIONS } from '../data/pets';
 import { addHealthCheck } from '../utils/database';
 
-const API_URL = 'http://5.129.233.22:8002';
+const API_URL = 'https://user:1ece9ba353db29003fa2ebf7ca2e3d4e@8ccbeb76f1a2-tunnel-din0vexs.devinapps.com';
 
 export default function HealthCheckScreen({ route, navigation }: any) {
   const { petId, petName, petType } = route.params;
