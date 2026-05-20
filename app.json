@@ -23,7 +23,10 @@
         "monochromeImage": "./assets/android-icon-monochrome.png"
       },
       "package": "com.petvet.app",
-      "permissions": ["android.permission.CAMERA"]
+      "permissions": [
+        "android.permission.CAMERA",
+        "android.permission.RECORD_AUDIO"
+      ]
     },
     "web": {
       "favicon": "./assets/favicon.png"
@@ -39,8 +42,9 @@
     ],
     "extra": {
       "eas": {
-        "projectId": ""
+        "projectId": "a0e165bd-071f-47f9-80e8-0da503f2a3e9"
       }
-    }
+    },
+    "owner": "lessmer-app"
   }
 }
